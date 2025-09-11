@@ -22,8 +22,10 @@ decBtn.addEventListener("click", () => {
 });
 
 resetBtn.addEventListener("click", () => {
-  count = 0;
-  render();
+    if(count > 0){
+        count = 0;
+        render();
+    }
 });
 
 squareBtn.addEventListener("click", () => {
