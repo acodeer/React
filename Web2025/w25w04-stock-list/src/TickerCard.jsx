@@ -23,6 +23,7 @@ const TickerCard = ({ ticker, name, currentPrice, previousClose }) => {
       <div className="mt-4 text-sm text-gray-500">
         전일 종가: ${previousClose.toFixed(2)}
       </div>
+      
     </div>
   )
 }
